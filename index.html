@@ -1,16 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>My Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
-    </style>
-</head>
-<body>
-    <h1>Welcome to My CS180 Portfolio!</h1>
-    <a href="./1/index.html">Project 1</a>
-</body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="A collection of computational photography projects.">
+    <title>Gardlae — CS180</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="wordmark" href="./">Gardlae</a>
+      <p>CS180 · Fall 2026</p>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <p class="eyebrow">Computational Photography</p>
+        <h1 id="page-title">Experiments in images, light, and code.</h1>
+        <p class="lede">
+          A growing collection of project notes, results, and things I learned
+          along the way.
+        </p>
+      </section>
+
+      <section class="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <h2 id="projects-title">Projects</h2>
+          <span>01</span>
+        </div>
+
+        <a class="project-card" href="./0/">
+          <div>
+            <p class="project-number">Project 00</p>
+            <h3>Becoming Friends with Your Camera</h3>
+            <p>Exploring perspective, focal length, and the dolly zoom.</p>
+          </div>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built by hand with HTML &amp; CSS.</p>
+      <p>CS180 Portfolio</p>
+    </footer>
+  </body>
 </html>
